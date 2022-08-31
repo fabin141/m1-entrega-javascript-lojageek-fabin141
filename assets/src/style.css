@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;;
+    border-style: none;
+}
+*{
+    scrollbar-width: thin;
+    scrollbar-color: #fff #0A99FE;
+    
+}
+*::-webkit-scrollbar {
+    width: 9px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #0A99FE;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #fff;
+    border-radius: 20px;
+    border: 3px solid #0A99FE;
+}
+
+body {
+    font-size: 100%;
+    list-style-type: none;
+    background-color: #FFF;
+}
+.principal{
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cabecalho {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 2px solid #0A99FE;
+}
+
+.cabecalho-nav {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.btnNav {
+    color : #0A99FE;
+    background-color: #5aade73a;
+    width: 150px;
+    height: 40px;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: 400;
+    transition: 0.5s;
+}
+.btnNav:hover{
+    background-color: #0A99FE;
+    color: #FFF;
+    transition: 0.75s;
+}
+
+
+.secaoList {
+    
+    padding: 0px 17px;
+    margin-bottom: 17px;
+}
+
+.tituloSecao {
+    font-size: 35px;
+
+    font-weight: 400;
+    padding: 37px 0px;
+    color: #1B1B1B;
+}
+
+.list-painting, .list-figure{
+    display: flex;
+    justify-content: flex-start;
+    gap: 27px;
+    overflow-x: auto;
+}
+
+.card {
+    width: 207px;
+    height: 275px;
+    min-width: 207px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 7px;
+    background-color: #5aade73a;
+    transition: 0.5s;
+    overflow-x: auto;
+}
+.card:hover{
+    background-color: #6fc3ff;
+    color: #FFF;
+    transition: 0.75s;
+}
+
+.img-item {
+    background-color: #a6d6f83a;
+    border-radius: 7px;
+    height: 50%;
+    width: 100%;
+    object-fit:scale-down;
+}
+
+.img-item img{
+    max-width: 100%;
+    max-height: 100%;
+    width: fit-content;
+}
+
+.titulo-item {
+    height: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: #1B1B1B;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+.titulo-item:hover{
+    color: #FFF;
+    transition: 0.75s;
+}
+
+.valor-item {
+    height: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    color: 	#000;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+.valor-item:hover{
+    color: #fff;
+    transition: 0.75s;
+    font-size: 22px;
+}
